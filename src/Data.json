@@ -1,0 +1,19 @@
+[
+        {
+            "id":"001",
+            "tittle":"web",
+            "name":"salman"
+        },
+        {
+            "id":"002",
+            "tittle":"software",
+            "name":"rohit"
+        },
+        {
+            "id":"003",
+            "tittle":"dev",
+            "name":"salim"
+        }
+
+
+]

@@ -1,0 +1,102 @@
+:root {
+    font-size: 20px;
+  }
+  body {
+    color: #224;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 90vh;
+    padding: 30px;
+    margin: 0;
+  
+    
+  }
+  
+  .maindiv {
+    width: 500px;
+    height: 500px;
+    padding: 35px;
+    
+  
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+  }
+  
+  #inputbox{
+    width: 300px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  }
+  .button{
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: pink;
+    border: dotted 1.5px red;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  #inputbox:focus{
+    outline:solid 1px red;
+    box-shadow: 0 0 10px 1px #6F07C0;
+  }
+  #submitbox:hover{
+  box-shadow: 0 0 10px 1px #A137D7;
+  }
+
+  .button:focus{
+    outline:solid 1px red;
+    box-shadow: 0 0 10px 1px #6F07C0;
+  }
+  .button:hover{
+  box-shadow: 0 0 10px 1px red;
+  }
+
+  #removeButton{
+    background-color: red;
+    color: black;
+    margin-left: 12px;
+    border-radius: 50%;
+    width: 15px;
+    padding-left: 0%;
+
+  }
+  .removeall{
+    background-color: rgb(85, 164, 243);
+    border: dotted 1.5px rgb(7, 199, 61);
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+}
+
+
+  .removeall:focus{
+    outline:solid 1px red;
+    box-shadow: 0 0 10px 1px #6F07C0;
+  }
+  .removeall:hover{
+  box-shadow: 0 0 10px 1px red;
+  }
+
+#tegline{
+    margin-top: 200px;
+    
+  }
+
+ 
+  

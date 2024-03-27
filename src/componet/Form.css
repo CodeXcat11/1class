@@ -1,0 +1,16 @@
+div{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 120px;
+   
+
+
+}
+input{
+    margin-right: 50px;
+}
+.input13{
+    margin-left: 14px;
+}
